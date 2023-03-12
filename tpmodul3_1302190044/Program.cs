@@ -21,14 +21,57 @@ namespace tpmodul3_1302190044
             Maleer,
             Samoja
         }
+        enum DoorState
+        {
+            Terbuka,
+            Terkunci
+        }
 
-        class KodePos
+     class KodePos
         {
             public string Kode { get; set; }
            // public string Kelurahan { get; set; }
             public Kelurahan Kelurahan { get; set; }
         }
+    public class SebuahPanto
+    {
+        private DoorState statusnya;
 
+        public SebuahPanto()
+        {
+            statusnya = DoorState.Terbuka;
+        }
+
+        public void Buka()
+        {
+            if (statusnya == DoorState.Terbuka)
+            {
+                Console.WriteLine("Pintu Terbuka.");
+            }
+            else
+            {
+                Console.WriteLine("Pintu Segera Terbuka.....");
+                statusnya = DoorState.Terbuka;
+            }
+        }
+
+        public void Nutup()
+        {
+            if (statusnya == DoorState.Terkunci)
+            {
+                Console.WriteLine("Tutup Pintu");
+                statusnya = DoorState.Terkunci;
+            }
+        }
+
+        public void Status()
+        {
+            if (statusnya == DoorState.Terkunci)
+            {
+                Console.WriteLine("Kunci Pintu.....");
+            }
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -98,6 +141,18 @@ namespace tpmodul3_1302190044
             Console.WriteLine(kodepos4.Kode + "//" + kodepos4.Kelurahan);
             Console.WriteLine(kodepos5.Kode + "//" + kodepos5.Kelurahan);
 
+
+            SebuahPanto Panto = new SebuahPanto();
+
+            Panto.Status();
+
+            Panto.Nutup();
+            Panto.Status();
+
+            Panto.Buka();
+            Panto.Status();
+
+            Panto.Buka(); 
         }
     }
 }
