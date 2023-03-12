@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2015\Projects\tpmodul3_1302190044\tpmodul3_1302190044\bin\Debug\tpmodul3_1302190044.exe.config
+c:\users\user\documents\visual studio 2015\Projects\tpmodul3_1302190044\tpmodul3_1302190044\obj\Debug\tpmodul3_1302190044.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\tpmodul3_1302190044\tpmodul3_1302190044\bin\Debug\tpmodul3_1302190044.exe
+c:\users\user\documents\visual studio 2015\Projects\tpmodul3_1302190044\tpmodul3_1302190044\bin\Debug\tpmodul3_1302190044.pdb
+c:\users\user\documents\visual studio 2015\Projects\tpmodul3_1302190044\tpmodul3_1302190044\obj\Debug\tpmodul3_1302190044.exe
+c:\users\user\documents\visual studio 2015\Projects\tpmodul3_1302190044\tpmodul3_1302190044\obj\Debug\tpmodul3_1302190044.pdb
